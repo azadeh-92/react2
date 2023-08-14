@@ -1,18 +1,19 @@
 import "./App.css";
+import Weather from "./weather.js";
 
 function App() {
   return (
     <div className="App">
-      <container>
-        <p>Weather App</p>
-        <footer>
+      <div className="whole">
+        <Weather />
+        <footer className="ms-2 text-muted">
           This project was coded by{" "}
           <a href="https://github.com/azadeh-92">Azadeh</a> and is{" "}
           <a href="https://github.com/azadeh-92/react2">
             open-source on Github
           </a>
         </footer>
-      </container>
+      </div>
     </div>
   );
 }
