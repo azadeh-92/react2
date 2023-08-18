@@ -1,6 +1,7 @@
 import React from "react";
 import Newdate from "./newdate";
 import WeatherIcon from "./weatherIcon";
+import Selsius from "./selsius";
 export default function Weatherinfo(props) {
   return (
     <div>
@@ -20,10 +21,11 @@ export default function Weatherinfo(props) {
             // alt={props.weather.description}
             // className="d-inline icon"
           ></img> */}
-          <div className="d-inline">
+          {/* <div className="d-inline">
             <span className="vimp">{Math.round(props.weather.temp)}</span>
             <span className="degree">°C</span>
-          </div>
+          </div> */}
+          <Selsius sel={props.weather.temp} />
           <ul className="d-inline-block list-unstyled ms-3 firstlist">
             <li>Humidity: {props.weather.humidity}% </li>
             <li>Wind: {Math.round(props.weather.wind)} km/h</li>
