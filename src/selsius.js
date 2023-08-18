@@ -14,7 +14,7 @@ export default function Selsius(props) {
       <div className="d-inline">
         <span className="vimp">{Math.round(props.sel)}</span>
         <span className="degree">°C|</span>
-        <a href="" className="degree" onClick={GoFar}>
+        <a href="/" className="degree" onClick={GoFar}>
           {" "}
           °F
         </a>
@@ -24,7 +24,7 @@ export default function Selsius(props) {
     return (
       <div className="d-inline">
         <span className="vimp">{Math.round((props.sel * 9) / 5 + 32)}</span>
-        <a href="" className="degree" onClick={GoSel}>
+        <a href="/" className="degree" onClick={GoSel}>
           {" "}
           °C
         </a>

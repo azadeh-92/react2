@@ -1,4 +1,3 @@
-import React from "react";
 export default function Newdate(props) {
   console.log(props.date);
   let day = props.date.getDay();
