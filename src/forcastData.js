@@ -3,7 +3,7 @@ import WeatherIcon from "./weatherIcon";
 export default function ForcastData(props) {
   let timing = new Date(1000 * props.data.time);
   let dayTime = timing.getDay();
-  let Days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+  let Days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   let dayWeek = Days[dayTime];
 
   return (
