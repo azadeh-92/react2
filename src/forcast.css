@@ -1,0 +1,30 @@
+.forcast {
+  text-align: center;
+}
+.forcastDay {
+  color: #202124;
+  line-height: 15px;
+  padding-top: 7px;
+  font-family: arial, sans-serif;
+}
+.forcastMax {
+  color: rgb(32, 33, 36);
+
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  text-align: center;
+  padding-right: 5px;
+}
+.forcastMin {
+  color: rgb(112, 117, 122);
+
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  line-height: 15px;
+  text-align: center;
+}

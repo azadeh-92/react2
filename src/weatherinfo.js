@@ -15,16 +15,8 @@ export default function Weatherinfo(props) {
 
       <div className="row">
         <div className=" d-inline col-6">
-          <WeatherIcon des={props.weather.iconDis} />
-          {/* <img
-            // src={props.weather.icon}
-            // alt={props.weather.description}
-            // className="d-inline icon"
-          ></img> */}
-          {/* <div className="d-inline">
-            <span className="vimp">{Math.round(props.weather.temp)}</span>
-            <span className="degree">°C</span>
-          </div> */}
+          <WeatherIcon des={props.weather.iconDis} size={50} />
+
           <Selsius sel={props.weather.temp} />
           <ul className="d-inline-block list-unstyled ms-3 firstlist">
             <li>Humidity: {props.weather.humidity}% </li>
